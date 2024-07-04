@@ -1,0 +1,208 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "62d13f52-5b95-4b2e-9bc7-6f5f907932ec")
+	(paper "A4")
+	(title_block
+		(title "DapLink_STM32F103CBT6")
+		(date "2024-07-01")
+		(company "roger225 Roger Jhang")
+	)
+	(lib_symbols)
+	(sheet
+		(at 128.27 38.1)
+		(size 46.99 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3cbe4489-d8a9-40e8-8d89-b185e2a351a5")
+		(property "Sheetname" "Debug and UART Interface"
+			(at 128.27 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mculink_standalone_debug_uart.kicad_sch"
+			(at 128.27 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MCU-Link-Standalone"
+				(path "/52afa5f9-012e-424b-bf0c-786f4ecc122a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 92.71)
+		(size 40.64 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a")
+		(property "Sheetname" "Usb"
+			(at 156.21 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Usb.kicad_sch"
+			(at 156.21 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 38.1)
+		(size 48.26 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba3457e3-4ca3-42ff-b102-c41c2fbeeb1c")
+		(property "Sheetname" "MCU-LINK Power and USB"
+			(at 71.12 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mculink_standalone_power_usb.kicad_sch"
+			(at 71.12 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MCU-Link-Standalone"
+				(path "/52afa5f9-012e-424b-bf0c-786f4ecc122a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 101.6)
+		(size 54.61 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c5505282-deed-4b2e-81f9-216594ebbe5e")
+		(property "Sheetname" "Mcu"
+			(at 64.77 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mcu.kicad_sch"
+			(at 64.77 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 228.6 78.74)
+		(size 30.48 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eb20876d-f6d4-40b4-9447-0949b56edc29")
+		(property "Sheetname" "DebugAndUart"
+			(at 228.6 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DebugAndUart.kicad_sch"
+			(at 228.6 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

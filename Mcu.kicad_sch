@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8936c2f8-1070-438a-9e94-3c49cf8984f0")
+	(paper "A4")
+	(title_block
+		(title "DapLink_STM32F103CBT6")
+		(date "2024-07-01")
+		(company "roger225 Roger Jhang")
+	)
+	(lib_symbols)
+)
