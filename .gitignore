@@ -1,1 +1,5 @@
 DapLink_STM32F103CBT6-backups/
+*.lck
+\#auto_saved_files#
+fp-info-cache
+report.txt
