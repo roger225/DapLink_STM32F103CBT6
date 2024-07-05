@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -388,6 +388,14 @@
       "Root"
     ],
     [
+      "76eab6bd-3626-4bc5-b5e8-4554e3723acc",
+      "LPC55S69-1"
+    ],
+    [
+      "2f8cc6ac-7872-4e1f-a41a-2a8e8f8175e1",
+      "LPC55S69-2"
+    ],
+    [
       "c5505282-deed-4b2e-81f9-216594ebbe5e",
       "Mcu"
     ],
@@ -398,14 +406,6 @@
     [
       "eb20876d-f6d4-40b4-9447-0949b56edc29",
       "DebugAndUart"
-    ],
-    [
-      "ba3457e3-4ca3-42ff-b102-c41c2fbeeb1c",
-      "MCU-LINK Power and USB"
-    ],
-    [
-      "3cbe4489-d8a9-40e8-8d89-b185e2a351a5",
-      "Debug and UART Interface"
     ]
   ],
   "text_variables": {}
