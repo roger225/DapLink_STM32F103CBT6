@@ -98,7 +98,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a")
-		(property "Sheetname" "Usb"
+		(property "Sheetname" "UsbAndPower"
 			(at 156.21 91.9984 0)
 			(effects
 				(font
@@ -107,7 +107,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Usb.kicad_sch"
+		(property "Sheetfile" "UsbAndPower.kicad_sch"
 			(at 156.21 119.9646 0)
 			(effects
 				(font
@@ -157,7 +157,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
