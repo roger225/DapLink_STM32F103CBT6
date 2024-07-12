@@ -3538,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 45.72) (xy 223.52 45.72)
+			(xy 220.98 45.72) (xy 223.52 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4051,17 +4051,6 @@
 		)
 		(uuid "1d15255a-fab1-442d-a823-330ea23a8fc3")
 	)
-	(label "USB_CONNECT"
-		(at 209.55 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2bd7bcdc-6dbd-409c-ae76-92fe5e84dd55")
-	)
 	(label "USB_D-"
 		(at 105.41 88.9 0)
 		(fields_autoplaced yes)
@@ -4162,6 +4151,18 @@
 			(justify left)
 		)
 		(uuid "555966d0-747c-4350-a5c4-d1871da54904")
+	)
+	(hierarchical_label "USB_CONNECT"
+		(shape input)
+		(at 220.98 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a18b37c8-6cd5-4b89-84fb-83b35c7bfd81")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
