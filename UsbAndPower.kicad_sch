@@ -3298,16 +3298,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 58.42) (xy 66.04 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11efb30b-006f-42c9-9772-1f8e4f67d830")
-	)
-	(wire
-		(pts
 			(xy 105.41 57.15) (xy 100.33 57.15)
 		)
 		(stroke
@@ -3578,6 +3568,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 58.42) (xy 69.85 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c23a73c-32f2-42e1-b2e1-659c5bd3c819")
+	)
+	(wire
+		(pts
 			(xy 214.63 116.84) (xy 214.63 121.92)
 		)
 		(stroke
@@ -3585,16 +3585,6 @@
 			(type default)
 		)
 		(uuid "80bbc5d9-159d-4544-9c9b-9763ed23b4b7")
-	)
-	(wire
-		(pts
-			(xy 80.01 53.34) (xy 66.04 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "818e9ce2-4c63-403c-81d7-57b6af585808")
 	)
 	(wire
 		(pts
@@ -3858,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 53.34) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70b6b7d-9104-42b9-a9c1-a32d953af017")
+	)
+	(wire
+		(pts
 			(xy 203.2 148.59) (xy 203.2 151.13)
 		)
 		(stroke
@@ -4073,17 +4073,6 @@
 		)
 		(uuid "2f45dc09-b20f-45fe-8439-c0f352f6aa97")
 	)
-	(label "USB_D+"
-		(at 68.58 58.42 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43681731-d25f-4d3f-9398-bc5b1721e26e")
-	)
 	(label "USB_CONNECT"
 		(at 165.1 25.4 0)
 		(fields_autoplaced yes)
@@ -4139,17 +4128,6 @@
 		)
 		(uuid "a2baa166-b1e6-42d6-8fef-86044a12de5b")
 	)
-	(label "USB_D-"
-		(at 68.58 53.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8fbaf6a-1c0e-4fbf-89ce-2607f830cfc0")
-	)
 	(label "USB_VBUS"
 		(at 91.44 76.2 0)
 		(fields_autoplaced yes)
@@ -4160,6 +4138,30 @@
 			(justify left bottom)
 		)
 		(uuid "e620edfb-088e-42ce-9c75-9cb28c22ea1a")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 69.85 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2146304c-f6b7-430e-a38a-c390f8598a77")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 69.85 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "555966d0-747c-4350-a5c4-d1871da54904")
 	)
 	(symbol
 		(lib_id "power:+3.3V")

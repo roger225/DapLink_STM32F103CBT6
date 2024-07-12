@@ -116,6 +116,26 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_D-" bidirectional
+			(at 156.21 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a99094d-595a-4043-8903-150d1bca9394")
+		)
+		(pin "USB_D+" bidirectional
+			(at 156.21 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17e5103c-b340-402f-aa49-2b103e1175da")
+		)
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec"
@@ -191,6 +211,66 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "TARGET_TXD" output
+			(at 228.6 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8db42091-136c-4dbc-8f40-1e861482b307")
+		)
+		(pin "TARGET_RXD" input
+			(at 228.6 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8789178-6c9a-47f3-a56d-12ead4007f78")
+		)
+		(pin "TARGET_SWO" output
+			(at 228.6 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "281d7b3a-212f-410a-b8d4-af66c284108e")
+		)
+		(pin "TARGET_RESET" output
+			(at 228.6 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "577d5880-60a7-4659-b719-3f05c52d408c")
+		)
+		(pin "TARGET_SWDIO" bidirectional
+			(at 228.6 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e5d53f0-8b8c-4001-b6b8-b67145def863")
+		)
+		(pin "TARGET_SWCLK" output
+			(at 228.6 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36e756d8-8a4e-40b6-a513-e2ef266d7812")
 		)
 		(instances
 			(project "DapLink_STM32F103CBT6"
