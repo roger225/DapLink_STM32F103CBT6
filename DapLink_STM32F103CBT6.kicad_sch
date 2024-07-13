@@ -136,6 +136,16 @@
 			)
 			(uuid "17e5103c-b340-402f-aa49-2b103e1175da")
 		)
+		(pin "USB_CONNECT" input
+			(at 156.21 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "918eebbd-53a4-4df7-aebe-787ac1898091")
+		)
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec"

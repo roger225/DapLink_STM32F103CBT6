@@ -3548,6 +3548,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 27.94) (xy 177.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2d3458-cd14-4cba-928a-93d302fcc1ca")
+	)
+	(wire
+		(pts
 			(xy 241.3 38.1) (xy 248.92 38.1)
 		)
 		(stroke
@@ -3685,6 +3695,16 @@
 			(type default)
 		)
 		(uuid "9b680813-ffc0-4a95-bc0b-b345880163c8")
+	)
+	(wire
+		(pts
+			(xy 165.1 27.94) (xy 177.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4a95a1-1223-43cf-a552-c27c9cf231e4")
 	)
 	(wire
 		(pts
@@ -3828,16 +3848,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 25.4) (xy 177.8 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c37c7744-bcad-4ee3-96fc-9c232247add0")
-	)
-	(wire
-		(pts
 			(xy 250.19 76.2) (xy 256.54 76.2)
 		)
 		(stroke
@@ -3888,16 +3898,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 25.4) (xy 177.8 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d796343a-c125-4730-aa6e-4401414a1ef3")
-	)
-	(wire
-		(pts
 			(xy 241.3 27.94) (xy 266.7 27.94)
 		)
 		(stroke
@@ -3938,7 +3938,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 38.1) (xy 128.27 38.1)
+			(xy 121.92 38.1) (xy 130.81 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4040,6 +4040,17 @@
 		)
 		(uuid "a6a5b801-2069-4497-bd53-60fbdebaf798")
 	)
+	(label "USB_CONNECT"
+		(at 165.1 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00a035e5-d18e-4fbf-adff-62556016b025")
+	)
 	(label "USB_D+"
 		(at 63.5 88.9 0)
 		(fields_autoplaced yes)
@@ -4061,17 +4072,6 @@
 			(justify left bottom)
 		)
 		(uuid "2f45dc09-b20f-45fe-8439-c0f352f6aa97")
-	)
-	(label "USB_CONNECT"
-		(at 165.1 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c731f1e-b01c-44a5-9b4f-61697d333fcc")
 	)
 	(label "USB_D+"
 		(at 165.1 50.8 0)
@@ -4183,7 +4183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V_LDO"
 			(at 214.63 133.35 0)
 			(effects
 				(font
@@ -4309,7 +4309,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16fad362-78d7-4354-92d9-a4a9d93b822d")
 		(property "Reference" "FB1"
 			(at 118.0592 30.48 90)
@@ -4716,15 +4715,15 @@
 	(symbol
 		(lib_id "Transistor_FET:DMG2301L")
 		(at 264.16 38.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2add6703-dbdc-42bc-85d2-e412817982d0")
 		(property "Reference" "Q6"
-			(at 270.51 36.8299 0)
+			(at 270.51 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4732,7 @@
 			)
 		)
 		(property "Value" "DMG2301L"
-			(at 270.51 39.3699 0)
+			(at 270.51 36.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4741,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 269.24 40.005 0)
+			(at 269.24 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4752,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
-			(at 269.24 41.91 0)
+			(at 269.24 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5342,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 128.27 38.1 0)
+		(at 130.81 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5352,7 +5351,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c50dcb5-35aa-4f41-bf6d-efd344031e58")
 		(property "Reference" "#PWR071"
-			(at 128.27 41.91 0)
+			(at 130.81 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5360,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 128.27 33.02 0)
+			(at 130.81 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 38.1 0)
+			(at 130.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +5377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 38.1 0)
+			(at 130.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 128.27 38.1 0)
+			(at 130.81 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6023,7 +6022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1.8V"
+		(property "Value" "+1.8V_LDO"
 			(at 214.63 104.14 0)
 			(effects
 				(font
