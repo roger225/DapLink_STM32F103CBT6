@@ -2090,6 +2090,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 53.34) (xy 99.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f00331-e806-421c-9fc0-a311d0ed7afc")
+	)
+	(wire
+		(pts
 			(xy 245.11 74.93) (xy 250.19 74.93)
 		)
 		(stroke
@@ -2137,6 +2147,16 @@
 			(type default)
 		)
 		(uuid "1b8256cc-a543-4a08-8e70-7ecf75b37d6f")
+	)
+	(wire
+		(pts
+			(xy 99.06 44.45) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd0d73a-7dec-4d2d-854b-ee4b14ee15a2")
 	)
 	(wire
 		(pts
@@ -2300,6 +2320,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 59.69) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90fb99bd-7f12-47e0-819a-3c5544b0aa3c")
+	)
+	(wire
+		(pts
 			(xy 245.11 87.63) (xy 245.11 86.36)
 		)
 		(stroke
@@ -2327,6 +2357,16 @@
 			(type default)
 		)
 		(uuid "9a5f0bcd-4eeb-413e-aec5-de6c01dcadee")
+	)
+	(wire
+		(pts
+			(xy 106.68 54.61) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2822eb-9287-425b-9e64-4254d1180524")
 	)
 	(wire
 		(pts
@@ -2490,6 +2530,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 55.88) (xy 106.68 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d84fad29-0367-49b3-8fd8-48c9139b3af0")
+	)
+	(wire
+		(pts
 			(xy 246.38 30.48) (xy 254 30.48)
 		)
 		(stroke
@@ -2547,26 +2597,6 @@
 			(type default)
 		)
 		(uuid "ea751040-7128-4e87-8195-a7e9a35a1874")
-	)
-	(wire
-		(pts
-			(xy 82.55 54.61) (xy 96.52 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d0f9d4-6d11-410f-b51d-89127245a2f2")
-	)
-	(wire
-		(pts
-			(xy 82.55 59.69) (xy 96.52 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f68c918c-d433-47ec-9a39-5687a6dcc9fa")
 	)
 	(wire
 		(pts
@@ -2980,6 +3010,142 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e33a921-25a3-4770-a107-355933c65458")
+		(property "Reference" "R34"
+			(at 101.6 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100K"
+			(at 101.6 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 100.838 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "667e7bfc-4ded-4b94-944a-90e8f030e165")
+		)
+		(pin "2"
+			(uuid "ff6b8813-9232-4189-b971-7fcb949ce7db")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 99.06 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23a94510-fbde-41dc-9812-7388cae474de")
+		(property "Reference" "#PWR0112"
+			(at 99.06 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.06 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 99.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6837920b-11ef-4501-93ab-2bbaa4296c8e")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4297,6 +4463,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b43e95ec-d975-4670-a075-867cf2135f85")
+		(property "Reference" "#PWR0113"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce44dd52-c962-4c17-9b6f-2ceec04da5f1")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 83.82 36.83 0)
 		(unit 1)
@@ -5379,6 +5611,76 @@
 			(project ""
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8812bfb-cf2a-4b59-b677-0de9153c8f72")
+		(property "Reference" "R35"
+			(at 109.22 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100K"
+			(at 109.22 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 108.458 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7af6c08f-f999-4ec3-b542-5aeb8e02660e")
+		)
+		(pin "2"
+			(uuid "3dee4e00-7fb9-4280-a431-466a4693564d")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R35")
 					(unit 1)
 				)
 			)

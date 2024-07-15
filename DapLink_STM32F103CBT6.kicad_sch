@@ -193,8 +193,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 78.74)
-		(size 30.48 40.64)
+		(at 228.6 76.2)
+		(size 25.4 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -205,7 +205,7 @@
 		)
 		(uuid "eb20876d-f6d4-40b4-9447-0949b56edc29")
 		(property "Sheetname" "DebugAndUart"
-			(at 228.6 78.0284 0)
+			(at 228.6 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -214,7 +214,7 @@
 			)
 		)
 		(property "Sheetfile" "DebugAndUart.kicad_sch"
-			(at 228.6 119.9646 0)
+			(at 228.6 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -222,27 +222,17 @@
 				(justify left top)
 			)
 		)
-		(pin "TARGET_TXD" output
-			(at 228.6 83.82 180)
+		(pin "TARGET_TXD" input
+			(at 228.6 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8db42091-136c-4dbc-8f40-1e861482b307")
+			(uuid "cd2c9110-a119-475a-a6b4-96a10bc0466f")
 		)
-		(pin "TARGET_RXD" input
-			(at 228.6 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d8789178-6c9a-47f3-a56d-12ead4007f78")
-		)
-		(pin "TARGET_SWO" output
+		(pin "TARGET_SWDIO" bidirectional
 			(at 228.6 91.44 180)
 			(effects
 				(font
@@ -250,9 +240,9 @@
 				)
 				(justify left)
 			)
-			(uuid "281d7b3a-212f-410a-b8d4-af66c284108e")
+			(uuid "103380e1-d937-4dbf-9136-22b1cc956965")
 		)
-		(pin "TARGET_RESET" output
+		(pin "TARGET_RESET" input
 			(at 228.6 93.98 180)
 			(effects
 				(font
@@ -260,19 +250,29 @@
 				)
 				(justify left)
 			)
-			(uuid "577d5880-60a7-4659-b719-3f05c52d408c")
+			(uuid "7c391e6b-3bcc-4206-b711-5771d8df3c2a")
 		)
-		(pin "TARGET_SWDIO" bidirectional
-			(at 228.6 97.79 180)
+		(pin "TARGET_SWO" input
+			(at 228.6 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0e5d53f0-8b8c-4001-b6b8-b67145def863")
+			(uuid "b4bbc189-cce2-4f1e-8d76-6a6cf0e9e37f")
 		)
-		(pin "TARGET_SWCLK" output
+		(pin "TARGET_RXD" output
+			(at 228.6 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "caabf43f-0013-48b7-b8d6-38be24b2f23f")
+		)
+		(pin "TARGET_SWCLK" input
 			(at 228.6 101.6 180)
 			(effects
 				(font
@@ -280,7 +280,7 @@
 				)
 				(justify left)
 			)
-			(uuid "36e756d8-8a4e-40b6-a513-e2ef266d7812")
+			(uuid "3d919051-bbba-432a-b538-47e3656135e0")
 		)
 		(instances
 			(project "DapLink_STM32F103CBT6"
