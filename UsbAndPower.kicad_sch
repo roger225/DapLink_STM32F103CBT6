@@ -4231,6 +4231,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:DMG2301L")
+		(at 264.16 38.1 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fbc06b4-1d62-45e8-a352-f5714934ac7a")
+		(property "Reference" "Q5"
+			(at 270.51 39.3701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2301"
+			(at 270.51 36.8301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 269.24 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2301(SOT-23).pdf"
+			(at 269.24 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-2.8A Id, -20V Vds, +-8V Vgs, Rds 50mR, P-Channel MOSFET, SOT-23"
+			(at 264.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1eba9cb-f6ae-4f3c-b07b-b3361f93b112")
+		)
+		(pin "1"
+			(uuid "32c97b6d-19f0-4031-ad1b-1fdb355ae43b")
+		)
+		(pin "3"
+			(uuid "8ca4eba6-bff5-448b-b6f8-45ee8f55e252")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:LM1117MP-3.3")
 		(at 185.42 76.2 0)
 		(unit 1)
@@ -4707,82 +4783,6 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMG2301L")
-		(at 264.16 38.1 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2add6703-dbdc-42bc-85d2-e412817982d0")
-		(property "Reference" "Q6"
-			(at 270.51 39.3701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG2301L"
-			(at 270.51 36.8301 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 269.24 36.195 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
-			(at 269.24 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
-			(at 264.16 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76cd0302-5a67-4028-b065-f70fd01a05b1")
-		)
-		(pin "1"
-			(uuid "1d4295fe-97cb-4dde-80a5-004c6ec319a5")
-		)
-		(pin "3"
-			(uuid "6b535392-b4f8-496a-a497-b0119453cf31")
-		)
-		(instances
-			(project ""
-				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -5720,81 +5720,6 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:ZXMN3A14F")
-		(at 238.76 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d29a5a8-f9b8-4729-b132-ac2b98d5f959")
-		(property "Reference" "Q4"
-			(at 245.11 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ZXMN3A14F"
-			(at 245.11 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 243.84 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf"
-			(at 243.84 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "3.2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
-			(at 238.76 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "116c4d81-9976-499e-aa07-15b2bb8b354f")
-		)
-		(pin "3"
-			(uuid "a18144e9-8fea-4987-9bba-d977f6310b48")
-		)
-		(pin "2"
-			(uuid "1b5bc724-5af9-44a2-8e62-d6d8f35bce53")
-		)
-		(instances
-			(project ""
-				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7230,6 +7155,81 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:ZXMN3A14F")
+		(at 238.76 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e53dd727-b67e-4bd2-b451-dfd76381a93d")
+		(property "Reference" "Q4"
+			(at 245.11 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2306"
+			(at 245.11 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 243.84 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2306(SOT-23).pdf"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.16A Id, 30V Vds, +-20V Vgs, Rds 38mR N-Channel MOSFET, SOT-23"
+			(at 238.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "acdc92ed-07d6-4e0a-9619-568ce89fdd46")
+		)
+		(pin "3"
+			(uuid "85aa83f9-105b-4836-8920-d6fee7d7c46d")
+		)
+		(pin "2"
+			(uuid "5111f687-0124-4c2c-afb6-05f6138dae75")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a"
+					(reference "Q4")
 					(unit 1)
 				)
 			)

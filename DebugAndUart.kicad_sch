@@ -1402,7 +1402,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:DMG2301L"
+		(symbol "Transistor_FET:ZXMN3A14F"
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1416,7 +1416,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "DMG2301L"
+			(property "Value" "ZXMN3A14F"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1436,7 +1436,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
+			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1446,7 +1446,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
+			(property "Description" "3.2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1455,7 +1455,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "P-Channel MOSFET"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1473,7 +1473,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DMG2301L_0_1"
+			(symbol "ZXMN3A14F_0_1"
 				(polyline
 					(pts
 						(xy 0.254 0) (xy -2.54 0)
@@ -1560,7 +1560,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1572,7 +1572,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
 					)
 					(stroke
 						(width 0)
@@ -1584,7 +1584,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1596,7 +1596,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1640,7 +1640,7 @@
 					)
 				)
 			)
-			(symbol "DMG2301L_1_1"
+			(symbol "ZXMN3A14F_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2035,10 +2035,34 @@
 		)
 	)
 	(junction
+		(at 175.26 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24b3cb1b-23f0-4a25-810c-c7c9ec2224bc")
+	)
+	(junction
+		(at 257.81 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29272b74-0bce-4e73-bd53-6027c2cb8bc7")
+	)
+	(junction
 		(at 83.82 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d5b4fdb-708d-4e57-b12f-2c753370670f")
+	)
+	(junction
+		(at 162.56 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3581d8f1-4f09-4881-ac1c-e755ffe4b981")
+	)
+	(junction
+		(at 144.78 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2425d2e-4a6b-4a21-99da-4f96002590c5")
 	)
 	(junction
 		(at 33.02 49.53)
@@ -2053,10 +2077,26 @@
 		(uuid "d85946d0-ba8b-4f23-b761-0204ab9ac7d6")
 	)
 	(junction
-		(at 217.17 72.39)
+		(at 162.56 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1faf3cd-61ab-4443-ad4c-cdff8f2f94ea")
+		(uuid "e2c33591-316a-450b-a199-dfc836f53f38")
+	)
+	(junction
+		(at 245.11 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faff46ee-3629-4c1d-886b-31007fe1ca03")
+	)
+	(wire
+		(pts
+			(xy 245.11 74.93) (xy 250.19 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0524c483-f442-44e5-9be9-7ea8eed8d6c9")
 	)
 	(wire
 		(pts
@@ -2067,6 +2107,16 @@
 			(type default)
 		)
 		(uuid "09e62bcd-4f82-475c-9d4b-f6e51fa0a8ba")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "116fd514-ca62-42d7-b172-6e04a25b6371")
 	)
 	(wire
 		(pts
@@ -2090,17 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 55.88) (xy 217.17 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2685fd04-8817-4b31-9209-dcb4d059adbf")
-	)
-	(wire
-		(pts
-			(xy 217.17 81.28) (xy 217.17 85.09)
+			(xy 257.81 80.01) (xy 257.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2110,13 +2150,33 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 66.04) (xy 209.55 66.04)
+			(xy 257.81 68.58) (xy 257.81 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40a4be02-b5e1-48bd-b05e-dcb267173707")
+		(uuid "2e65e2d8-820c-4427-9ae1-4395e0510347")
+	)
+	(wire
+		(pts
+			(xy 162.56 66.04) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4199bdf7-0182-4fc7-860d-0e0c46fbe715")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 154.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b1aacd-0d74-407c-8b58-4cf4ebe31ae1")
 	)
 	(wire
 		(pts
@@ -2140,23 +2200,23 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 243.84 72.39)
+			(xy 236.22 81.28) (xy 237.49 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51c6dc9c-daa5-42af-86c4-8b1b241aedf3")
+		(uuid "52d6d438-908a-4a85-9bf7-c740ff042c3d")
 	)
 	(wire
 		(pts
-			(xy 217.17 72.39) (xy 217.17 73.66)
+			(xy 257.81 60.96) (xy 257.81 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5599042e-d93b-4238-a2d9-7ceb9340bf59")
+		(uuid "648d72e0-6136-4300-a5f3-fc0f26c606a7")
 	)
 	(wire
 		(pts
@@ -2167,6 +2227,56 @@
 			(type default)
 		)
 		(uuid "6ada0cb6-fc13-4ce6-afe7-c96b1c2edc63")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718ade94-060c-4663-a9de-98699430ce5b")
+	)
+	(wire
+		(pts
+			(xy 245.11 73.66) (xy 245.11 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fa33c3-f6f5-4212-b4a5-02100e5b4e46")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74c44a63-40bd-4154-aade-970c51b168e3")
+	)
+	(wire
+		(pts
+			(xy 245.11 59.69) (xy 245.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ea334dc-8b0f-4a44-9872-6d3ac103f0b7")
+	)
+	(wire
+		(pts
+			(xy 144.78 100.33) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef2afad-2785-44df-a5f8-c4f8bd92d4a4")
 	)
 	(wire
 		(pts
@@ -2190,6 +2300,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 87.63) (xy 245.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97abf13c-029d-4ae3-b1df-3eaf20489159")
+	)
+	(wire
+		(pts
 			(xy 74.93 44.45) (xy 74.93 33.02)
 		)
 		(stroke
@@ -2200,7 +2320,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 46.99) (xy 138.43 46.99)
+			(xy 135.89 29.21) (xy 143.51 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2210,13 +2330,33 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 66.04) (xy 199.39 66.04)
+			(xy 33.02 50.8) (xy 33.02 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed02a4c-705b-4f1b-8e56-580424e7dbb1")
+	)
+	(wire
+		(pts
+			(xy 210.82 81.28) (xy 228.6 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3afb3e2-6668-4fb9-9014-279d7c2ee881")
+	)
+	(wire
+		(pts
+			(xy 162.56 80.01) (xy 162.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7910d9c-bb99-435c-8929-ab29b82acb2f")
 	)
 	(wire
 		(pts
@@ -2240,23 +2380,63 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 71.12) (xy 217.17 72.39)
+			(xy 162.56 81.28) (xy 162.56 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb5f3248-bb0b-4f99-a82a-06fb25026f16")
+		(uuid "b9b5bd5b-9ce6-4cb1-89d8-ca7373dbb810")
 	)
 	(wire
 		(pts
-			(xy 191.77 29.21) (xy 214.63 29.21)
+			(xy 175.26 86.36) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c566cdbe-dd7b-4304-a491-65b55311543b")
+	)
+	(wire
+		(pts
+			(xy 175.26 74.93) (xy 175.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5827987-d2e5-4658-92a5-e6589b39a1f0")
+	)
+	(wire
+		(pts
+			(xy 246.38 33.02) (xy 269.24 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c63f6805-7641-4503-9e49-357afe71001a")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75fa609-2e6b-41f7-a8d4-ed4b805c6db9")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 146.05 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc41f3e4-a576-4d73-8f42-87ad7f186428")
 	)
 	(wire
 		(pts
@@ -2290,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 49.53) (xy 153.67 49.53)
+			(xy 135.89 31.75) (xy 158.75 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2300,7 +2480,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 58.42) (xy 33.02 57.15)
+			(xy 33.02 59.69) (xy 33.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2310,7 +2490,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 26.67) (xy 199.39 26.67)
+			(xy 246.38 30.48) (xy 254 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2327,6 +2507,46 @@
 			(type default)
 		)
 		(uuid "e10b5801-cd46-4eba-b3a9-01416408448b")
+	)
+	(wire
+		(pts
+			(xy 257.81 69.85) (xy 279.4 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e10b7541-da81-4fb8-bbcc-5fe94f36e8bf")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e136c3c3-abda-426a-91a1-51632b56a402")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93f4742-906a-41e2-a33d-7ac62da2010d")
+	)
+	(wire
+		(pts
+			(xy 175.26 67.31) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea751040-7128-4e87-8195-a7e9a35a1874")
 	)
 	(wire
 		(pts
@@ -2348,8 +2568,18 @@
 		)
 		(uuid "f68c918c-d433-47ec-9a39-5687a6dcc9fa")
 	)
+	(wire
+		(pts
+			(xy 245.11 74.93) (xy 245.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa8c02f5-68b5-4457-afe8-993516535779")
+	)
 	(label "TARGET_1v8_RESET"
-		(at 226.06 72.39 0)
+		(at 260.35 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2358,6 +2588,17 @@
 			(justify left bottom)
 		)
 		(uuid "13a7b31a-d7fe-4b45-a710-a59aed657af4")
+	)
+	(label "TARGET_1v8_SWO"
+		(at 128.27 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f20b6f2-dd41-4bc2-95d0-a53bd69b992f")
 	)
 	(label "TARGET_SWDIO"
 		(at 82.55 59.69 0)
@@ -2382,7 +2623,7 @@
 		(uuid "38b5d280-58fa-4432-a3c4-cc35cba12d2b")
 	)
 	(label "TARGET_1v8_RESET"
-		(at 191.77 44.45 0)
+		(at 246.38 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2404,7 +2645,7 @@
 		(uuid "4829eb86-4bae-4bae-99e4-2e96994e4518")
 	)
 	(label "TARGET_RESET"
-		(at 184.15 66.04 0)
+		(at 210.82 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2426,7 +2667,7 @@
 		(uuid "5292ab6d-450d-4605-8d9a-871191566123")
 	)
 	(label "TARGET_1v8_TXD"
-		(at 191.77 36.83 0)
+		(at 246.38 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2437,7 +2678,7 @@
 		(uuid "5c100c0e-0994-43cc-81cc-39a55d694e77")
 	)
 	(label "TARGET_1v8_SWO"
-		(at 191.77 41.91 0)
+		(at 246.38 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2446,6 +2687,17 @@
 			(justify left bottom)
 		)
 		(uuid "61ad28a9-1025-4ebf-9866-1a6d78aefa6b")
+	)
+	(label "TARGET_SWO"
+		(at 184.15 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6293d492-10ef-41fb-966c-a29b94b85568")
 	)
 	(label "TARGET_TXD"
 		(at 82.55 64.77 0)
@@ -2459,7 +2711,7 @@
 		(uuid "66e0cde7-3879-4979-b750-7e6f8e30f42e")
 	)
 	(label "TARGET_1v8_SWCLK"
-		(at 191.77 31.75 0)
+		(at 246.38 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2481,7 +2733,7 @@
 		(uuid "a09082d4-5dc9-42b9-904a-16b59aa65275")
 	)
 	(label "TARGET_1v8_SWDIO"
-		(at 191.77 34.29 0)
+		(at 246.38 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2492,7 +2744,7 @@
 		(uuid "b834ccb8-3b7d-4a9d-8e52-6d579a5eb4af")
 	)
 	(label "TARGET_1v8_RXD"
-		(at 191.77 39.37 0)
+		(at 246.38 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2526,7 +2778,7 @@
 	)
 	(hierarchical_label "TARGET_TXD"
 		(shape input)
-		(at 130.81 57.15 0)
+		(at 135.89 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2538,7 +2790,7 @@
 	)
 	(hierarchical_label "TARGET_SWDIO"
 		(shape bidirectional)
-		(at 130.81 54.61 0)
+		(at 135.89 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2550,7 +2802,7 @@
 	)
 	(hierarchical_label "TARGET_RESET"
 		(shape input)
-		(at 130.81 64.77 0)
+		(at 135.89 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2562,7 +2814,7 @@
 	)
 	(hierarchical_label "TARGET_SWO"
 		(shape input)
-		(at 130.81 62.23 0)
+		(at 135.89 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2574,7 +2826,7 @@
 	)
 	(hierarchical_label "TARGET_SWCLK"
 		(shape input)
-		(at 130.81 52.07 0)
+		(at 135.89 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2586,7 +2838,7 @@
 	)
 	(hierarchical_label "TARGET_RXD"
 		(shape output)
-		(at 130.81 59.69 0)
+		(at 135.89 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2595,6 +2847,356 @@
 			(justify left)
 		)
 		(uuid "fe2594b4-08e9-4070-bab4-442e96791e87")
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 162.56 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e58edec-9bdf-4e18-bf9e-df61ceacce2e")
+		(property "Reference" "#PWR0107"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "339a8a53-766c-460f-8f11-3a4e65646522")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 245.11 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fbed4d3-6c77-4c5b-959b-f71e29392a49")
+		(property "Reference" "R36"
+			(at 247.65 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 247.65 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 246.888 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 245.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6dc3620-21a2-4014-8ac5-e20676d567eb")
+		)
+		(pin "2"
+			(uuid "295a9ab4-adc7-4010-a367-30d4cc6a0d64")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "327913e9-b50a-4043-8270-1093c0f3bf9f")
+		(property "Reference" "R39"
+			(at 149.86 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 149.86 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 149.86 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe8fce4d-7ce6-41de-881d-fb8e75fc571d")
+		)
+		(pin "2"
+			(uuid "5b723836-011c-4767-bb9d-85142f48446c")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:ZXMN3A14F")
+		(at 255.27 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32d1e60d-1e57-4ce4-83f9-8e0d1460984d")
+		(property "Reference" "Q7"
+			(at 261.62 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2306"
+			(at 261.62 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 260.35 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2306(SOT-23).pdf"
+			(at 260.35 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.16A Id, 30V Vds, +-20V Vgs, Rds 38mR N-Channel MOSFET, SOT-23"
+			(at 255.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dd915ca-7a0b-411a-bc95-f75e07274e3a")
+		)
+		(pin "3"
+			(uuid "15329b7d-8b5d-4616-9583-46a676fe22da")
+		)
+		(pin "2"
+			(uuid "cb1e1563-be5a-434c-ada4-619833b46f24")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 257.81 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39d200ab-f0e8-446f-b7f2-9cb50d2a4aa6")
+		(property "Reference" "R41"
+			(at 260.35 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 260.35 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 259.588 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f322fd2-5af9-4ddf-ac2a-103a71a3ef30")
+		)
+		(pin "2"
+			(uuid "3ac4aa14-a562-4f04-923b-beefc29834a7")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2657,6 +3259,142 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 257.81 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40d579dc-f5d8-482c-a7be-e702bc1f3996")
+		(property "Reference" "#PWR0104"
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.8V"
+			(at 257.81 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 257.81 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95eded9b-cef7-4a32-825c-1cf4d57f1c36")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41a2accd-bc06-45a9-9352-63951472b85d")
+		(property "Reference" "R42"
+			(at 147.32 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 147.32 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 146.558 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2207499a-fb17-43ac-a568-c7e1a7db7bd8")
+		)
+		(pin "2"
+			(uuid "805afb22-d139-4ea2-8e61-615de4ca26fc")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -2734,7 +3472,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 199.39 26.67 0)
+		(at 254 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2743,7 +3481,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ec30a5f-24c7-4bd9-bdca-3fbe826f0788")
 		(property "Reference" "#PWR077"
-			(at 199.39 30.48 0)
+			(at 254 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +3490,7 @@
 			)
 		)
 		(property "Value" "+1.8V"
-			(at 199.39 21.59 0)
+			(at 254 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +3498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 26.67 0)
+			(at 254 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +3507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 26.67 0)
+			(at 254 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +3516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 199.39 26.67 0)
+			(at 254 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,17 +3537,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 217.17 55.88 0)
+		(lib_id "Device:R")
+		(at 175.26 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "56a1005c-47db-4b59-9f50-e55444de1718")
-		(property "Reference" "#PWR0103"
-			(at 217.17 59.69 0)
+		(uuid "5f4a4c86-b91b-4de7-baef-2cb96ecae0f5")
+		(property "Reference" "R40"
+			(at 177.8 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 177.8 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 177.038 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,16 +3573,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 217.17 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 55.88 0)
+		(property "Datasheet" "~"
+			(at 175.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2834,17 +3582,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 217.17 55.88 0)
+		(property "Description" "Resistor"
+			(at 175.26 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,88 +3592,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "36935ceb-c369-44af-98e7-3054ab99ee84")
-		)
-		(instances
-			(project "DapLink_STM32F103CBT6"
-				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
-					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMG2301L")
-		(at 214.63 66.04 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5885a505-6611-4d5c-8e94-4806345e0d50")
-		(property "Reference" "Q7"
-			(at 220.98 67.3101 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DMG2301L"
-			(at 220.98 64.7701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 219.71 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf"
-			(at 219.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"
-			(at 214.63 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "0f2080fc-39ea-4eb8-85aa-5c05eb469e08")
 		)
 		(pin "2"
-			(uuid "fa67a5d2-13a2-4eb8-981e-5a9478b05bd7")
-		)
-		(pin "1"
-			(uuid "13d1c8b7-b39f-4839-955d-764487553859")
-		)
-		(pin "3"
-			(uuid "c4439056-477d-4b63-a5ad-ba98afe4395d")
+			(uuid "f9c01896-b8f6-4e9b-a154-8825c79d13ff")
 		)
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
-					(reference "Q7")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2942,7 +3608,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 29.21 0)
+		(at 269.24 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2951,7 +3617,7 @@
 		(fields_autoplaced yes)
 		(uuid "63a47167-f793-4851-98ad-f6fe593548b9")
 		(property "Reference" "#PWR079"
-			(at 214.63 35.56 0)
+			(at 269.24 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2960,7 +3626,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 34.29 0)
+			(at 269.24 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +3634,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 29.21 0)
+			(at 269.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +3643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 29.21 0)
+			(at 269.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 29.21 0)
+			(at 269.24 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3674,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 153.67 49.53 0)
+		(at 158.75 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3017,7 +3683,7 @@
 		(fields_autoplaced yes)
 		(uuid "78b45e75-2d0b-4688-9249-dae96aa3b985")
 		(property "Reference" "#PWR080"
-			(at 153.67 55.88 0)
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3692,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 54.61 0)
+			(at 158.75 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 49.53 0)
+			(at 158.75 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 49.53 0)
+			(at 158.75 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 49.53 0)
+			(at 158.75 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,79 +3805,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 217.17 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "814ffa28-8028-429b-b297-3fee3680b025")
-		(property "Reference" "R39"
-			(at 214.63 78.7401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 214.63 76.2001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 218.948 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 217.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4161da6c-58c7-4bef-941f-ccb25c54381f")
-		)
-		(pin "2"
-			(uuid "e3196f3b-85cf-4de0-997b-4cc36464c244")
-		)
-		(instances
-			(project "DapLink_STM32F103CBT6"
-				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 217.17 85.09 0)
+		(at 257.81 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3220,7 +3816,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b6bb853-76b5-4e4e-9eca-0ea761533859")
 		(property "Reference" "#PWR0102"
-			(at 217.17 91.44 0)
+			(at 257.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3825,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 90.17 0)
+			(at 257.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 85.09 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 85.09 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +3851,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 85.09 0)
+			(at 257.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +3939,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 58.42 0)
+		(at 33.02 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3352,7 +3948,7 @@
 		(fields_autoplaced yes)
 		(uuid "a06e201c-83dd-42e9-af9e-c4357b038a9b")
 		(property "Reference" "#PWR085"
-			(at 33.02 64.77 0)
+			(at 33.02 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 63.5 0)
+			(at 33.02 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 58.42 0)
+			(at 33.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 58.42 0)
+			(at 33.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3387,7 +3983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 58.42 0)
+			(at 33.02 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,8 +4070,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 175.26 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adbc909e-3546-4e4a-abd7-5fdb96774893")
+		(property "Reference" "#PWR0108"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7379f285-ac59-4814-a9c3-c9bf56bd78c5")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 125.73 54.61 0)
+		(at 130.81 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3484,7 +4146,7 @@
 		(fields_autoplaced yes)
 		(uuid "aec2fca0-bc40-4ca5-8388-390b3d577de6")
 		(property "Reference" "J7"
-			(at 126.365 41.91 0)
+			(at 131.445 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +4154,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 126.365 44.45 0)
+			(at 131.445 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +4162,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 125.73 54.61 0)
+			(at 130.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +4171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 54.61 0)
+			(at 130.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +4180,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 125.73 54.61 0)
+			(at 130.81 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,6 +4216,81 @@
 			(project ""
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:ZXMN3A14F")
+		(at 242.57 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afb6cda9-cc39-41b3-a5dd-27794ce6d3fd")
+		(property "Reference" "Q6"
+			(at 248.92 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2306"
+			(at 248.92 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 247.65 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2306(SOT-23).pdf"
+			(at 247.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.16A Id, 30V Vds, +-20V Vgs, Rds 38mR N-Channel MOSFET, SOT-23"
+			(at 242.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df41ba47-184a-4a69-bf84-60e015c3c62c")
+		)
+		(pin "3"
+			(uuid "3a92d1c2-a8ea-4222-be46-ddbe5847cbb7")
+		)
+		(pin "2"
+			(uuid "99dad935-9fda-4d72-8f48-c150039e9308")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -3700,17 +4437,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 138.43 46.99 0)
+		(lib_id "Device:R")
+		(at 162.56 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cfdbfce1-1ad7-4ac1-a452-042bf9c1a74a")
-		(property "Reference" "#PWR078"
-			(at 138.43 50.8 0)
+		(uuid "be08ff04-32c7-4ecd-8406-e48e4e0fae8e")
+		(property "Reference" "R37"
+			(at 165.1 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 165.1 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 164.338 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3718,8 +4473,136 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 138.43 41.91 0)
+		(property "Datasheet" "~"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab52ada9-b4f8-402f-b5da-375b882f8c11")
+		)
+		(pin "2"
+			(uuid "66194c8f-80b3-42fb-8dff-fe2078796b1d")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:ZXMN3A14F")
+		(at 172.72 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1441f92-96f1-434b-b012-19021452827c")
+		(property "Reference" "Q9"
+			(at 179.07 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2306"
+			(at 179.07 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 177.8 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2306(SOT-23).pdf"
+			(at 177.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.16A Id, 30V Vds, +-20V Vgs, Rds 38mR N-Channel MOSFET, SOT-23"
+			(at 172.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "560b8506-2cd9-4a9c-ac32-481db5edc8a5")
+		)
+		(pin "3"
+			(uuid "b8ff99fc-b982-4a05-b4c2-f793868928d0")
+		)
+		(pin "2"
+			(uuid "5e06ef3e-4723-4b45-add5-1b463fcdfbcd")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 245.11 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5925ea0-c6b2-47f3-a991-27580f9c3dda")
+		(property "Reference" "#PWR0105"
+			(at 245.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,7 +4610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 46.99 0)
+			(at 245.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +4619,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 46.99 0)
+			(at 245.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b983db67-e82d-4d42-87c7-152d57d4df5e")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 143.51 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfdbfce1-1ad7-4ac1-a452-042bf9c1a74a")
+		(property "Reference" "#PWR078"
+			(at 143.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 143.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +4694,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 138.43 46.99 0)
+			(at 143.51 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,7 +4716,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 203.2 66.04 270)
+		(at 232.41 81.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3776,7 +4725,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4e48a04-4f1e-4903-b4c1-7037cc9167f0")
 		(property "Reference" "R38"
-			(at 203.2 59.69 90)
+			(at 232.41 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +4733,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 203.2 62.23 90)
+			(at 232.41 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +4741,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 203.2 64.262 90)
+			(at 232.41 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +4750,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 66.04 0)
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +4759,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 203.2 66.04 0)
+			(at 232.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,8 +4783,75 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 175.26 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab600cc-86f8-491b-975c-12e1ebc0a45b")
+		(property "Reference" "#PWR0109"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "317a4c5b-1abd-40e3-aee8-d5143ef47aa8")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x08_Pin")
-		(at 186.69 34.29 0)
+		(at 241.3 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3844,7 +4860,7 @@
 		(fields_autoplaced yes)
 		(uuid "de3ea2ed-c4a5-4a07-99b9-b3be31565c1c")
 		(property "Reference" "J5"
-			(at 187.325 21.59 0)
+			(at 241.935 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +4868,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08_Pin"
-			(at 187.325 24.13 0)
+			(at 241.935 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +4876,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 186.69 34.29 0)
+			(at 241.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +4885,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 34.29 0)
+			(at 241.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,7 +4894,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 186.69 34.29 0)
+			(at 241.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,6 +4930,147 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 162.56 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b3b5e8-8b20-4084-922c-d4a0ada4854d")
+		(property "Reference" "#PWR0106"
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 162.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 162.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8db9ed26-2a46-4029-821e-d0619c163234")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:ZXMN3A14F")
+		(at 160.02 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e357e441-75c6-429d-babb-f7dde7baa7eb")
+		(property "Reference" "Q8"
+			(at 166.37 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI2306"
+			(at 166.37 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 165.1 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2306(SOT-23).pdf"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.16A Id, 30V Vds, +-20V Vgs, Rds 38mR N-Channel MOSFET, SOT-23"
+			(at 160.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baa42bed-2b6c-42c0-912e-214fab510790")
+		)
+		(pin "3"
+			(uuid "a3e69028-e925-4797-9581-376ca1fcca36")
+		)
+		(pin "2"
+			(uuid "b26dde2a-6443-4f83-a3b1-17248ee939a1")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -3986,8 +5143,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 245.11 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee4c61e5-d61b-46c3-ac13-f1a5583c0212")
+		(property "Reference" "#PWR0103"
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 245.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "426050ed-df7a-43c4-910b-6d8da0ea256c")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 33.02 53.34 180)
+		(at 33.02 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3996,7 +5219,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1edb590-9cda-44f7-bba5-bd87784c2987")
 		(property "Reference" "R12"
-			(at 35.56 52.0699 0)
+			(at 35.56 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +5228,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 35.56 54.6099 0)
+			(at 35.56 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +5237,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 34.798 53.34 90)
+			(at 34.798 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +5246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 53.34 0)
+			(at 33.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +5255,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 33.02 53.34 0)
+			(at 33.02 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
