@@ -478,14 +478,6 @@
       "Root"
     ],
     [
-      "56bfbac3-8a0e-4cce-b2a5-e832c577057f",
-      "MCU-LINK Power and USB"
-    ],
-    [
-      "6db18b42-db86-4e89-a2ee-7c63f42949ba",
-      "Debug and UART Interface"
-    ],
-    [
       "c5505282-deed-4b2e-81f9-216594ebbe5e",
       "Mcu"
     ],
