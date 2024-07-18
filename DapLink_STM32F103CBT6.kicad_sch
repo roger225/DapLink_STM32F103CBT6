@@ -11,8 +11,8 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 156.21 92.71)
-		(size 40.64 26.67)
+		(at 80.01 90.17)
+		(size 24.13 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -23,7 +23,7 @@
 		)
 		(uuid "a477e6ea-0fc3-4cc5-9f90-9fe3a9e18e1a")
 		(property "Sheetname" "UsbAndPower"
-			(at 156.21 91.9984 0)
+			(at 80.01 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Sheetfile" "UsbAndPower.kicad_sch"
-			(at 156.21 119.9646 0)
+			(at 80.01 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,35 +40,35 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_D-" bidirectional
-			(at 156.21 100.33 180)
+		(pin "USB_CONNECT" input
+			(at 104.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "3a99094d-595a-4043-8903-150d1bca9394")
+			(uuid "b5a5e5b9-ca4b-4e93-98a8-7ed5aee260bc")
 		)
 		(pin "USB_D+" bidirectional
-			(at 156.21 104.14 180)
+			(at 104.14 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "17e5103c-b340-402f-aa49-2b103e1175da")
+			(uuid "95525a2e-8a37-4629-b194-d3c0ad55d50b")
 		)
-		(pin "USB_CONNECT" input
-			(at 156.21 107.95 180)
+		(pin "USB_D-" bidirectional
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
-			(uuid "918eebbd-53a4-4df7-aebe-787ac1898091")
+			(uuid "5ba21499-18df-41e8-9fad-cdd8662db867")
 		)
 		(instances
 			(project "DapLink_STM32F103CBT6"
@@ -79,8 +79,8 @@
 		)
 	)
 	(sheet
-		(at 64.77 101.6)
-		(size 54.61 35.56)
+		(at 118.11 90.17)
+		(size 41.91 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -91,7 +91,7 @@
 		)
 		(uuid "c5505282-deed-4b2e-81f9-216594ebbe5e")
 		(property "Sheetname" "Mcu"
-			(at 64.77 100.8884 0)
+			(at 118.11 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -100,13 +100,103 @@
 			)
 		)
 		(property "Sheetfile" "Mcu.kicad_sch"
-			(at 64.77 137.7446 0)
+			(at 118.11 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "TARGET_SWCLK" output
+			(at 160.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98baa2f3-4c7e-4cfd-bff5-86432047b592")
+		)
+		(pin "TARGET_SWO" input
+			(at 160.02 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "da8b13a1-b2b9-46c3-ad1f-074922b13ab1")
+		)
+		(pin "TARGET_SWDIO" bidirectional
+			(at 160.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b29fea2a-888f-41ff-a39b-ecc00d0778b0")
+		)
+		(pin "USB_CONNECT" output
+			(at 118.11 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7a641732-fd1a-4c14-a93d-10083d868b82")
+		)
+		(pin "TARGET_TXD" output
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f77c6f8f-ecc8-4730-9a87-fd4323ef70cb")
+		)
+		(pin "TARGET_RXD" input
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d74b41f1-1820-4a57-ba60-c587b82544bf")
+		)
+		(pin "USB_D-" bidirectional
+			(at 118.11 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b1cf622-a359-4fa1-b408-3845f54c0399")
+		)
+		(pin "USB_D+" bidirectional
+			(at 118.11 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9bec578-678c-469b-b233-f0fbece5785b")
+		)
+		(pin "TARGET_RESET" output
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d6dc70db-d0e1-4a28-92e0-e741ac5b3b2d")
 		)
 		(instances
 			(project "DapLink_STM32F103CBT6"
@@ -117,8 +207,8 @@
 		)
 	)
 	(sheet
-		(at 228.6 76.2)
-		(size 25.4 50.8)
+		(at 165.1 90.17)
+		(size 25.4 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -129,7 +219,7 @@
 		)
 		(uuid "eb20876d-f6d4-40b4-9447-0949b56edc29")
 		(property "Sheetname" "DebugAndUart"
-			(at 228.6 75.4884 0)
+			(at 165.1 89.4584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,7 +228,7 @@
 			)
 		)
 		(property "Sheetfile" "DebugAndUart.kicad_sch"
-			(at 228.6 127.5846 0)
+			(at 165.1 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,64 +237,64 @@
 			)
 		)
 		(pin "TARGET_TXD" input
-			(at 228.6 88.9 180)
+			(at 165.1 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cd2c9110-a119-475a-a6b4-96a10bc0466f")
+			(uuid "cac14df0-b6f2-4a97-a6ff-4e16f6f38019")
 		)
 		(pin "TARGET_SWDIO" bidirectional
-			(at 228.6 91.44 180)
+			(at 165.1 101.6 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "103380e1-d937-4dbf-9136-22b1cc956965")
+			(uuid "8f4c8d00-5437-4805-b38b-7a894a364248")
 		)
 		(pin "TARGET_RESET" input
-			(at 228.6 93.98 180)
+			(at 165.1 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7c391e6b-3bcc-4206-b711-5771d8df3c2a")
+			(uuid "74b52cc6-a280-4b63-89d8-73f8b732165a")
 		)
 		(pin "TARGET_SWO" input
-			(at 228.6 96.52 180)
+			(at 165.1 96.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b4bbc189-cce2-4f1e-8d76-6a6cf0e9e37f")
+			(uuid "4ef0f08b-1adf-40a6-96fd-38a4dec9ec96")
 		)
 		(pin "TARGET_RXD" output
-			(at 228.6 99.06 180)
+			(at 165.1 106.68 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "caabf43f-0013-48b7-b8d6-38be24b2f23f")
+			(uuid "5131adf8-13ac-4ee9-a573-5c3d875f8880")
 		)
 		(pin "TARGET_SWCLK" input
-			(at 228.6 101.6 180)
+			(at 165.1 99.06 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3d919051-bbba-432a-b538-47e3656135e0")
+			(uuid "832b1a6a-2d9d-410e-86eb-6e31b0216f49")
 		)
 		(instances
 			(project "DapLink_STM32F103CBT6"

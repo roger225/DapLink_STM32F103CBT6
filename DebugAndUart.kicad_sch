@@ -2137,6 +2137,12 @@
 		)
 	)
 	(junction
+		(at 210.82 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "221d62cb-ab17-4340-a643-379d31368c6a")
+	)
+	(junction
 		(at 175.26 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2332,6 +2338,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 134.62) (xy 223.52 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59614022-2019-42a7-986b-106b1cde7de4")
+	)
+	(wire
+		(pts
 			(xy 257.81 60.96) (xy 257.81 59.69)
 		)
 		(stroke
@@ -2422,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 134.62) (xy 200.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d19fdd-e68e-4a0b-aee3-424fbe60c172")
+	)
+	(wire
+		(pts
 			(xy 99.06 59.69) (xy 82.55 59.69)
 		)
 		(stroke
@@ -2429,6 +2455,16 @@
 			(type default)
 		)
 		(uuid "90fb99bd-7f12-47e0-819a-3c5544b0aa3c")
+	)
+	(wire
+		(pts
+			(xy 210.82 128.27) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94657022-4f34-4fc4-8cb9-61b12918083b")
 	)
 	(wire
 		(pts
@@ -2562,6 +2598,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 134.62) (xy 223.52 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72addb8-9a0d-4c21-b60e-1123bb213ec3")
+	)
+	(wire
+		(pts
 			(xy 144.78 90.17) (xy 144.78 87.63)
 		)
 		(stroke
@@ -2602,6 +2648,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 128.27) (xy 198.12 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce17a774-127b-47be-a515-af8a774519fb")
+	)
+	(wire
+		(pts
 			(xy 82.55 64.77) (xy 96.52 64.77)
 		)
 		(stroke
@@ -2639,6 +2695,16 @@
 			(type default)
 		)
 		(uuid "d84fad29-0367-49b3-8fd8-48c9139b3af0")
+	)
+	(wire
+		(pts
+			(xy 210.82 134.62) (xy 213.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4fb3c4-03f5-46e5-affd-748922a1455d")
 	)
 	(wire
 		(pts
@@ -2689,6 +2755,16 @@
 			(type default)
 		)
 		(uuid "e93f4742-906a-41e2-a33d-7ac62da2010d")
+	)
+	(wire
+		(pts
+			(xy 208.28 134.62) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea26ddb6-09d8-4578-89ac-e373e880b801")
 	)
 	(wire
 		(pts
@@ -3112,6 +3188,72 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 210.82 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "163446b3-210d-4246-b611-64442fc271cd")
+		(property "Reference" "#PWR010"
+			(at 210.82 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.8V"
+			(at 210.82 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22f8e4bc-cba2-47f3-9ee4-3e07c87a46b2")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3757,7 +3899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1.8V"
+		(property "Value" "+1.8V_Target"
 			(at 254 25.4 0)
 			(effects
 				(font
@@ -3935,6 +4077,72 @@
 			(project ""
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 198.12 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "761ffced-5845-44e3-8ec4-f6aa76cda67b")
+		(property "Reference" "#PWR09"
+			(at 198.12 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.8V_LDO"
+			(at 198.12 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 198.12 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d59b5fe-786e-4b95-b538-27a70b5dcc53")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4201,6 +4409,74 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90250d68-ea92-440c-960f-9a50a53d90ce")
+		(property "Reference" "R7"
+			(at 204.47 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 204.47 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 204.47 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b970c218-f5f4-48c1-bf66-a23a093bb746")
+		)
+		(pin "2"
+			(uuid "4f0b99e9-cd09-4a4f-a6dd-e8a7c23a6476")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4838,6 +5114,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 223.52 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd6ed368-4ca1-420a-a420-c98088a7438d")
+		(property "Reference" "#PWR011"
+			(at 223.52 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.8V_Target"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 223.52 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c927d896-e086-40a4-96cd-2d0ad821733e")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 162.56 76.2 180)
 		(unit 1)
@@ -4977,6 +5319,74 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
 					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c24239cc-530b-4ea6-a9b7-bcde082ca633")
+		(property "Reference" "R8"
+			(at 217.17 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 217.17 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 217.17 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afb5eac0-f9a0-40d5-bd44-0fd89a5726d0")
+		)
+		(pin "2"
+			(uuid "936699f7-769a-44a7-90c1-f4d106d41bf1")
+		)
+		(instances
+			(project "DapLink_STM32F103CBT6"
+				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/eb20876d-f6d4-40b4-9447-0949b56edc29"
+					(reference "R8")
 					(unit 1)
 				)
 			)
