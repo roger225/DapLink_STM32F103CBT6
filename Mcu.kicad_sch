@@ -1296,102 +1296,6 @@
 				)
 			)
 		)
-		(symbol "GND_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_1_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_ST_STM32F1:STM32F103CBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3009,6 +2913,102 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
 					(length 0)
 					(name "~"
 						(effects
@@ -6180,7 +6180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05a5c3f9-7a44-427a-8fc7-bf58e1803254")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR01"
 			(at 17.78 168.91 0)
 			(effects
 				(font
@@ -6230,14 +6230,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0118")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 55.88 133.35 0)
 		(unit 1)
@@ -6247,7 +6246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "086cbbc1-5e11-4493-a59d-6e2c0d229f21")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR06"
 			(at 55.88 139.7 0)
 			(effects
 				(font
@@ -6297,14 +6296,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0120")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 101.6 33.02 0)
 		(unit 1)
@@ -6314,7 +6312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "102a83b4-aaa2-444f-a18f-9b73ccad4436")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR08"
 			(at 101.6 39.37 0)
 			(effects
 				(font
@@ -6364,7 +6362,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0115")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6380,7 +6378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18e26f6d-23d4-4b54-b4f1-3705a876631c")
-		(property "Reference" "R25"
+		(property "Reference" "R4"
 			(at 40.64 25.3999 0)
 			(effects
 				(font
@@ -6434,7 +6432,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R25")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6450,7 +6448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "191a32f7-7d97-4e6a-ace9-aa32d06c9315")
-		(property "Reference" "C48"
+		(property "Reference" "C3"
 			(at 41.91 86.3599 0)
 			(effects
 				(font
@@ -6504,7 +6502,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C48")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a5e0257-c596-4334-baba-d3dccb8af25f")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR020"
 			(at 261.62 134.62 0)
 			(effects
 				(font
@@ -6570,7 +6568,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR097")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6585,7 +6583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d81d57b-8b29-4350-8917-48291dce5500")
-		(property "Reference" "Q10"
+		(property "Reference" "Q1"
 			(at 245.11 80.0099 0)
 			(effects
 				(font
@@ -6614,7 +6612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2306(SOT-23).pdf"
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf"
 			(at 243.84 85.09 0)
 			(effects
 				(font
@@ -6624,7 +6622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.16A Id, 30V Vds, +-20V Vgs, Rds 38mR N-Channel MOSFET, SOT-23"
+		(property "Description" "3.2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 			(at 238.76 81.28 0)
 			(effects
 				(font
@@ -6645,7 +6643,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "Q10")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6661,7 +6659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1eb5c1fb-e5d9-4845-a4fc-3b17e60110d8")
-		(property "Reference" "R52"
+		(property "Reference" "R1"
 			(at 36.83 158.75 90)
 			(effects
 				(font
@@ -6713,14 +6711,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R52")
+					(reference "R1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 55.88 151.13 0)
 		(unit 1)
@@ -6730,7 +6727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23f5bca9-c64f-4ba1-be7d-635ecf5f9774")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR07"
 			(at 55.88 157.48 0)
 			(effects
 				(font
@@ -6780,7 +6777,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0119")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6796,7 +6793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "240a65e8-c50a-4500-9f16-bb4396ecf2be")
-		(property "Reference" "J8"
+		(property "Reference" "J1"
 			(at 224.155 125.73 0)
 			(effects
 				(font
@@ -6851,7 +6848,7 @@
 		(instances
 			(project ""
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "J8")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6868,7 +6865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "284f1294-8f16-4da9-84e0-518dd671d02d")
-		(property "Reference" "R54"
+		(property "Reference" "R3"
 			(at 36.83 184.15 90)
 			(effects
 				(font
@@ -6920,7 +6917,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R54")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6936,7 +6933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a148bed-e852-4ccf-b2e4-95d4e041cac4")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR018"
 			(at 241.3 60.96 0)
 			(effects
 				(font
@@ -6986,7 +6983,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0114")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7002,7 +6999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ff1252-3bae-4c91-a83b-4baf273b0313")
-		(property "Reference" "R14"
+		(property "Reference" "R21"
 			(at 242.57 25.3999 0)
 			(effects
 				(font
@@ -7056,7 +7053,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R14")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7072,7 +7069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3421a951-4acd-4a4f-82af-26bf7d97fe8c")
-		(property "Reference" "R47"
+		(property "Reference" "R23"
 			(at 260.35 76.1999 0)
 			(effects
 				(font
@@ -7126,7 +7123,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R47")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7142,7 +7139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff6c4f0-d9d9-4de9-96be-d256eb3e9a63")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 245.11 71.4374 90)
 			(effects
 				(font
@@ -7196,7 +7193,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7212,7 +7209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4086c4ee-106b-442b-a95c-0993870a9f6f")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR04"
 			(at 38.1 25.4 0)
 			(effects
 				(font
@@ -7262,14 +7259,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR093")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 241.3 87.63 0)
 		(unit 1)
@@ -7279,7 +7275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40f54b5a-516a-4ed6-ab5a-71c854e661bb")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR019"
 			(at 241.3 93.98 0)
 			(effects
 				(font
@@ -7329,7 +7325,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0116")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -7344,7 +7340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "449a3df7-7932-438c-b02d-a685010612f4")
-		(property "Reference" "R33"
+		(property "Reference" "R9"
 			(at 92.964 76.454 90)
 			(effects
 				(font
@@ -7396,7 +7392,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R33")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -7411,7 +7407,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c146052-a246-4df8-8cd9-907d81699ad6")
-		(property "Reference" "R29"
+		(property "Reference" "R10"
 			(at 92.964 104.394 90)
 			(effects
 				(font
@@ -7463,7 +7459,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R29")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -7479,7 +7475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5325fc7b-65f6-4ccb-bc70-9908902d3f01")
-		(property "Reference" "D10"
+		(property "Reference" "D5"
 			(at 51.1175 142.24 0)
 			(effects
 				(font
@@ -7531,7 +7527,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "D10")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7547,7 +7543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57133e82-6483-42c4-8e1f-046f3b8c0192")
-		(property "Reference" "C43"
+		(property "Reference" "C4"
 			(at 92.71 27.9399 0)
 			(effects
 				(font
@@ -7601,14 +7597,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C43")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 236.22 135.89 0)
 		(unit 1)
@@ -7618,7 +7613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6168a493-2e71-4728-a1d9-eb90b8e758a0")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR015"
 			(at 236.22 142.24 0)
 			(effects
 				(font
@@ -7668,7 +7663,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR099")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7684,7 +7679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a6f3214-c5aa-4a19-8c91-1b354f791d61")
-		(property "Reference" "R46"
+		(property "Reference" "R20"
 			(at 229.87 76.1999 0)
 			(effects
 				(font
@@ -7738,7 +7733,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R46")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7753,7 +7748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f9507d1-6002-4850-884e-e880df073887")
-		(property "Reference" "R28"
+		(property "Reference" "R15"
 			(at 171.704 51.054 90)
 			(effects
 				(font
@@ -7805,7 +7800,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R28")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7821,7 +7816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "700b3f6c-7db2-44bd-b95b-7821a2ea493f")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR09"
 			(at 133.35 26.67 0)
 			(effects
 				(font
@@ -7871,7 +7866,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR087")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -7887,7 +7882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "776c48f6-eed3-419b-840b-9f6ec9147eba")
-		(property "Reference" "C44"
+		(property "Reference" "C5"
 			(at 105.41 27.9399 0)
 			(effects
 				(font
@@ -7941,14 +7936,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C44")
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 271.78 87.63 0)
 		(unit 1)
@@ -7958,7 +7952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d6eb4ca-2362-43b8-bcd3-5699177dc588")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR022"
 			(at 271.78 93.98 0)
 			(effects
 				(font
@@ -8008,7 +8002,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0117")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8023,7 +8017,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8361f598-08a9-4afe-9499-302774c4a030")
-		(property "Reference" "R27"
+		(property "Reference" "R14"
 			(at 171.704 48.514 90)
 			(effects
 				(font
@@ -8075,7 +8069,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R27")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8090,7 +8084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85546dda-dff5-49ba-8dab-c1f4b82b09a8")
-		(property "Reference" "R31"
+		(property "Reference" "R12"
 			(at 106.934 101.854 90)
 			(effects
 				(font
@@ -8142,14 +8136,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R31")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 152.4 34.29 0)
 		(unit 1)
@@ -8159,7 +8152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "866b769b-f79d-474c-9929-8f257cdba5bf")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR011"
 			(at 152.4 40.64 0)
 			(effects
 				(font
@@ -8209,7 +8202,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR088")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8225,7 +8218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87ddbbf5-db86-4f07-90ee-eae5ad3a1559")
-		(property "Reference" "D13"
+		(property "Reference" "D3"
 			(at 28.2575 182.88 0)
 			(effects
 				(font
@@ -8277,7 +8270,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "D13")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8286,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88087ad1-ecc4-41dd-b89c-eab6dfb1cb91")
-		(property "Reference" "R30"
+		(property "Reference" "R11"
 			(at 92.964 106.934 90)
 			(effects
 				(font
@@ -8345,7 +8338,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R30")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8361,7 +8354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e49c08-811d-4672-ab06-6e2d7d6b6c46")
-		(property "Reference" "U9"
+		(property "Reference" "U1"
 			(at 140.6241 118.11 0)
 			(effects
 				(font
@@ -8554,7 +8547,7 @@
 		(instances
 			(project ""
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "U9")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8570,7 +8563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "897f21d4-dd18-437c-878b-3eea5d3ff42c")
-		(property "Reference" "R43"
+		(property "Reference" "R18"
 			(at 205.74 38.0999 0)
 			(effects
 				(font
@@ -8624,7 +8617,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R43")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8641,7 +8634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bbe54ff-62a0-411d-b207-fba69f8afbaa")
-		(property "Reference" "R51"
+		(property "Reference" "R5"
 			(at 40.64 125.73 90)
 			(effects
 				(font
@@ -8693,7 +8686,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R51")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8709,7 +8702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f78ed48-31a2-4ab2-9692-6961b5bb3bd9")
-		(property "Reference" "C40"
+		(property "Reference" "C7"
 			(at 143.51 27.9399 0)
 			(effects
 				(font
@@ -8763,7 +8756,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C40")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -8779,7 +8772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ff0e492-00b4-4773-af31-7033582fa908")
-		(property "Reference" "R48"
+		(property "Reference" "R24"
 			(at 269.24 60.9599 0)
 			(effects
 				(font
@@ -8833,7 +8826,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R48")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -8849,7 +8842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "911940c3-495f-4ada-bf2d-d4c7327712b3")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR014"
 			(at 236.22 134.62 0)
 			(effects
 				(font
@@ -8899,7 +8892,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR096")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -8915,7 +8908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96a3b70f-7474-4eb0-80ce-e9bd6dcb6ab8")
-		(property "Reference" "C42"
+		(property "Reference" "C9"
 			(at 168.91 27.9399 0)
 			(effects
 				(font
@@ -8969,7 +8962,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C42")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8985,7 +8978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c25e674-68ea-4642-8162-20149b6fecd1")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR023"
 			(at 275.59 26.67 0)
 			(effects
 				(font
@@ -9035,7 +9028,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR091")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9051,7 +9044,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ce1026d-990c-40eb-a8e6-8601cfccef11")
-		(property "Reference" "C47"
+		(property "Reference" "C2"
 			(at 21.59 86.3599 0)
 			(effects
 				(font
@@ -9105,14 +9098,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C47")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 240.03 40.64 0)
 		(unit 1)
@@ -9122,7 +9114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f9dc101-757e-4af3-88ae-9447183f054c")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR017"
 			(at 240.03 46.99 0)
 			(effects
 				(font
@@ -9172,7 +9164,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR090")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9188,7 +9180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5cee13b-f5f7-439f-8487-c3e7e0d11ab9")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 39.37 40.6399 90)
 			(effects
 				(font
@@ -9242,14 +9234,13 @@
 		(instances
 			(project ""
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 138.43 119.38 0)
 		(unit 1)
@@ -9259,7 +9250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6e6b34a-21e5-4388-9686-97bc9efb9c35")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR010"
 			(at 138.43 125.73 0)
 			(effects
 				(font
@@ -9309,7 +9300,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR095")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -9324,7 +9315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8dece76-01f0-4fa3-af68-9c17f1a50aac")
-		(property "Reference" "R32"
+		(property "Reference" "R7"
 			(at 92.964 48.514 90)
 			(effects
 				(font
@@ -9376,7 +9367,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R32")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9393,7 +9384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a966c111-fc15-44c5-9b74-d17378976025")
-		(property "Reference" "R50"
+		(property "Reference" "R6"
 			(at 40.64 143.51 90)
 			(effects
 				(font
@@ -9445,7 +9436,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R50")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9461,7 +9452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9ae1f60-e58c-4d99-bfc4-bd85f9ac9d4d")
-		(property "Reference" "C41"
+		(property "Reference" "C8"
 			(at 156.21 27.9399 0)
 			(effects
 				(font
@@ -9515,7 +9506,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C41")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9531,7 +9522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acc43f52-c4ba-4a7b-910c-6afb5e29fb7f")
-		(property "Reference" "D11"
+		(property "Reference" "D1"
 			(at 28.2575 157.48 0)
 			(effects
 				(font
@@ -9583,14 +9574,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "D11")
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 203.2 54.61 0)
 		(unit 1)
@@ -9600,7 +9590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad89585b-5341-47fb-83ad-7395d5cd3251")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR013"
 			(at 203.2 60.96 0)
 			(effects
 				(font
@@ -9650,7 +9640,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0110")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9666,7 +9656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec2845b-c159-4a41-8d99-c9613c78c10b")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR012"
 			(at 203.2 39.37 0)
 			(effects
 				(font
@@ -9716,7 +9706,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0111")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9732,7 +9722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aee634c3-d48e-4336-b0cb-200ce599ba87")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 249.555 125.73 0)
 			(effects
 				(font
@@ -9787,7 +9777,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -9803,7 +9793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7539257-de5f-4275-ad57-fbf506b222c6")
-		(property "Reference" "D9"
+		(property "Reference" "D7"
 			(at 275.59 71.4374 90)
 			(effects
 				(font
@@ -9857,7 +9847,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9873,7 +9863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba71918c-4f70-4ca0-8f70-b083b1c11f93")
-		(property "Reference" "C46"
+		(property "Reference" "C10"
 			(at 243.84 34.2899 0)
 			(effects
 				(font
@@ -9927,14 +9917,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C46")
+					(reference "C10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 261.62 135.89 0)
 		(unit 1)
@@ -9944,7 +9933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb923ea6-7fcc-4f5d-8a0d-32c1cfb120dd")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR021"
 			(at 261.62 142.24 0)
 			(effects
 				(font
@@ -9994,7 +9983,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR098")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -10011,7 +10000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c13b6d1c-d146-48b9-9e26-81ad176756d0")
-		(property "Reference" "R53"
+		(property "Reference" "R2"
 			(at 36.83 171.45 90)
 			(effects
 				(font
@@ -10063,14 +10052,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R53")
+					(reference "R2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 275.59 26.67 90)
 		(unit 1)
@@ -10080,7 +10068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c513b134-588d-4782-b6b1-6ee16f70d685")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR024"
 			(at 281.94 26.67 0)
 			(effects
 				(font
@@ -10131,7 +10119,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR092")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -10146,7 +10134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca0473d9-ce8a-442e-9162-0e06aa894b2f")
-		(property "Reference" "Q11"
+		(property "Reference" "Q2"
 			(at 275.59 80.0099 0)
 			(effects
 				(font
@@ -10175,7 +10163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/SI2306(SOT-23).pdf"
+		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ZXMN3A14F.pdf"
 			(at 274.32 85.09 0)
 			(effects
 				(font
@@ -10185,7 +10173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.16A Id, 30V Vds, +-20V Vgs, Rds 38mR N-Channel MOSFET, SOT-23"
+		(property "Description" "3.2A Id, 30V Vds, N-Channel MOSFET, SOT-23"
 			(at 269.24 81.28 0)
 			(effects
 				(font
@@ -10206,7 +10194,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "Q11")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10221,7 +10209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cba47f51-2940-4a83-983a-7b2f2d796a78")
-		(property "Reference" "R26"
+		(property "Reference" "R8"
 			(at 92.964 71.374 90)
 			(effects
 				(font
@@ -10273,7 +10261,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R26")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10289,7 +10277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1a49d3-84d4-47ce-8ea2-e607d3718a07")
-		(property "Reference" "D12"
+		(property "Reference" "D2"
 			(at 28.2575 170.18 0)
 			(effects
 				(font
@@ -10341,14 +10329,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "D12")
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 31.75 91.44 0)
 		(unit 1)
@@ -10358,7 +10345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccd8a158-e4de-4881-aa08-b86ad27d0349")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR03"
 			(at 31.75 97.79 0)
 			(effects
 				(font
@@ -10408,7 +10395,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0100")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10424,7 +10411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2364e55-a473-4b07-894d-c8b059f8c2e7")
-		(property "Reference" "C45"
+		(property "Reference" "C6"
 			(at 118.11 27.9399 0)
 			(effects
 				(font
@@ -10478,7 +10465,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C45")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10493,7 +10480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da1dcf36-cafc-447b-9ff7-7e85ab3d410e")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 43.18 72.39 0)
 			(effects
 				(font
@@ -10551,7 +10538,7 @@
 		(instances
 			(project ""
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -10566,7 +10553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd64c4aa-8350-4130-9b3d-218f41e0c2b9")
-		(property "Reference" "R23"
+		(property "Reference" "R16"
 			(at 171.704 71.374 90)
 			(effects
 				(font
@@ -10618,7 +10605,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R23")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10634,7 +10621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb6f25a-9ced-4cbd-8688-24cd9774c23e")
-		(property "Reference" "C49"
+		(property "Reference" "C1"
 			(at 26.67 40.6399 0)
 			(effects
 				(font
@@ -10688,7 +10675,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C49")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -10704,7 +10691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de726cf6-4d7d-4afa-9c1d-5701818fe695")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 260.985 19.05 0)
 			(effects
 				(font
@@ -10774,7 +10761,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -10790,7 +10777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1b4bf3a-76f0-4b31-8ed4-adcd1688edd7")
-		(property "Reference" "R49"
+		(property "Reference" "R22"
 			(at 238.76 60.9599 0)
 			(effects
 				(font
@@ -10844,7 +10831,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R49")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10860,7 +10847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e94a4acd-baec-43a7-bf97-505385d7bf34")
-		(property "Reference" "D14"
+		(property "Reference" "D4"
 			(at 51.1175 124.46 0)
 			(effects
 				(font
@@ -10912,7 +10899,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "D14")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10928,7 +10915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c6b14a-1086-4261-bfce-aee6ca8289b1")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR016"
 			(at 240.03 25.4 0)
 			(effects
 				(font
@@ -10978,7 +10965,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR089")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10994,7 +10981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea808ea7-ddb5-4e89-b2ef-24add84c7f46")
-		(property "Reference" "R24"
+		(property "Reference" "R17"
 			(at 171.704 73.914 90)
 			(effects
 				(font
@@ -11046,14 +11033,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R24")
+					(reference "R17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 38.1 48.26 0)
 		(unit 1)
@@ -11062,7 +11048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed689e08-9948-478a-a2c3-d5f068131e7c")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR05"
 			(at 38.1 54.61 0)
 			(effects
 				(font
@@ -11112,14 +11098,13 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR094")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 31.75 72.39 180)
 		(unit 1)
@@ -11129,7 +11114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef8904e0-f675-4829-8e64-9ec29ab28999")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR02"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -11179,7 +11164,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "#PWR0101")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11195,7 +11180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f298d876-028c-4270-8584-0b11716f455b")
-		(property "Reference" "R44"
+		(property "Reference" "R19"
 			(at 205.74 48.2599 0)
 			(effects
 				(font
@@ -11249,7 +11234,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R44")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -11264,7 +11249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa4ef4fd-a121-4785-aebf-85ecd6f623a9")
-		(property "Reference" "R45"
+		(property "Reference" "R13"
 			(at 106.934 109.474 90)
 			(effects
 				(font
@@ -11316,7 +11301,7 @@
 		(instances
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "R45")
+					(reference "R13")
 					(unit 1)
 				)
 			)
