@@ -10,6 +10,96 @@
 		(company "roger225 Roger Jhang")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 104.14 109.22) (xy 118.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc4f61a-a18b-4009-9795-f2aafb36e490")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b657f42-a760-4f2e-ac16-3ce621394f78")
+	)
+	(wire
+		(pts
+			(xy 104.14 104.14) (xy 118.11 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3559f820-fded-4c6b-a22e-9c1653906d7c")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361c16c6-2ad5-46f0-8565-72e7a45ed4bd")
+	)
+	(wire
+		(pts
+			(xy 160.02 106.68) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbc402b-9bcc-4ef5-94e9-ed5146e849e5")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 118.11 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cba087-4c97-4b15-bbba-d97713fbc307")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 165.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5efb433-7d95-42a6-8a9c-1919e9a8e8c5")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 165.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f0559f-febb-4544-86e6-d3174f6143ab")
+	)
+	(wire
+		(pts
+			(xy 160.02 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44b4bbd-1a8a-4169-8f87-15f3ddc52831")
+	)
 	(sheet
 		(at 80.01 90.17)
 		(size 24.13 22.86)
