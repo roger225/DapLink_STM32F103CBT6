@@ -3059,12 +3059,6 @@
 		(uuid "3bd3cbbc-836a-4c42-8b2c-b148a8b710ca")
 	)
 	(junction
-		(at 101.6 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "47974034-c5a1-4a32-9df1-55369a0b7a74")
-	)
-	(junction
 		(at 152.4 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3215,16 +3209,6 @@
 			(type default)
 		)
 		(uuid "0a5eeb9b-3524-4f86-b7b8-1632357c5c9c")
-	)
-	(wire
-		(pts
-			(xy 88.9 25.4) (xy 101.6 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e70b20-f4fb-44b0-ac29-8ea0df728c34")
 	)
 	(wire
 		(pts
@@ -3825,16 +3809,6 @@
 			(type default)
 		)
 		(uuid "89a943a9-bf46-430c-997a-84671e3b63c6")
-	)
-	(wire
-		(pts
-			(xy 88.9 33.02) (xy 101.6 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aaf105b-79f4-406f-82bd-e30826651049")
 	)
 	(wire
 		(pts
@@ -7528,76 +7502,6 @@
 			(project "DapLink_STM32F103CBT6"
 				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57133e82-6483-42c4-8e1f-046f3b8c0192")
-		(property "Reference" "C4"
-			(at 92.71 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 92.71 30.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 89.8652 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 88.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4669896b-0d05-4040-9860-528d671fea22")
-		)
-		(pin "1"
-			(uuid "e5bf3806-0cf3-4c61-976a-d0825e535f68")
-		)
-		(instances
-			(project "DapLink_STM32F103CBT6"
-				(path "/62d13f52-5b95-4b2e-9bc7-6f5f907932ec/c5505282-deed-4b2e-81f9-216594ebbe5e"
-					(reference "C4")
 					(unit 1)
 				)
 			)
