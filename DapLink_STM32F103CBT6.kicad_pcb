@@ -445,6 +445,7 @@
 		(property "Value" "M3-3.2mm"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bab5b81b-ef76-4fbe-a0a1-521bcc406faf")
 			(effects
 				(font
@@ -875,6 +876,7 @@
 		(property "Value" "Conn_01x08_Pin"
 			(at 0 20.11 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "cd6dff1f-73a0-4383-81e6-d0da3c1f5e90")
 			(effects
 				(font
@@ -1208,6 +1210,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6531ea24-5579-48b8-92ee-b1ecc481d0d8")
 			(effects
 				(font
@@ -1421,6 +1424,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "eb4eb14c-bb53-487a-bc0b-af3bed8a46dc")
 			(effects
 				(font
@@ -1850,6 +1854,7 @@
 		(property "Value" "TXB0104PW"
 			(at 0 3.45 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "3b2f4ce7-d7a5-4df6-bffd-676a45e46f83")
 			(effects
 				(font
@@ -2227,6 +2232,7 @@
 		(property "Value" "RT9193-33GB"
 			(at 0 2.4 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0567cc1a-0313-406c-883a-60fa0d635fe8")
 			(effects
 				(font
@@ -2514,6 +2520,7 @@
 		(property "Value" "1uF 10V X7R"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ab564cd7-3af0-4839-8f63-d305ca08ea81")
 			(effects
 				(font
@@ -2728,6 +2735,7 @@
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "72e40d09-ae6a-4027-a971-86521dbe2d41")
 			(effects
 				(font
@@ -3458,6 +3466,7 @@
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
 			(at 0 5 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "376dd181-87e8-4826-8ba2-ba22067ef334")
 			(effects
 				(font
@@ -3886,6 +3895,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c1a28abc-aade-477e-a129-1f2b3d64de90")
 			(effects
 				(font
@@ -4100,6 +4110,7 @@
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b6acbf13-fd1e-4429-a54f-9949199cc257")
 			(effects
 				(font
@@ -4596,6 +4607,7 @@
 		(property "Value" "SI2306"
 			(at 0 2.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "61477b4e-6b50-4035-8c79-d0079971bb48")
 			(effects
 				(font
@@ -5507,6 +5519,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c2bd4542-8c9b-4236-96a8-7bcaa5415291")
 			(effects
 				(font
@@ -6366,6 +6379,7 @@
 		(property "Value" "SKQGAFE010"
 			(at 0 3.6 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4a62e58d-bafc-4b96-be2e-a0afd0a779ae")
 			(effects
 				(font
@@ -7534,6 +7548,7 @@
 		(property "Value" "SI2306"
 			(at 0 2.4 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fe26ee58-cc13-4be2-9144-481dcd8e00ef")
 			(effects
 				(font
@@ -7803,6 +7818,7 @@
 		(property "Value" "SI2306"
 			(at 0 2.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f66757cc-451e-48f4-82a5-cc5a451a98f6")
 			(effects
 				(font
@@ -8483,7 +8499,7 @@
 			(uuid "03cd45a5-c935-415a-adba-1f91ed117311")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.4 0.2 0)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "648af7f6-853c-4b8b-b6ce-d5c5401e094c")
 			(effects
@@ -9472,6 +9488,7 @@
 		(property "Value" "PRTR5V0U2X"
 			(at -0.28 2.48 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "2d103bd4-f6b7-41ec-add5-d62c5b17e3c6")
 			(effects
 				(font
@@ -9943,6 +9960,7 @@
 		(property "Value" "10uF 10V"
 			(at 0 1.68 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bc568c03-d7e4-49e2-99e8-cf12977cfbd1")
 			(effects
 				(font
@@ -10372,6 +10390,7 @@
 		(property "Value" "22pF"
 			(at 0 1.429999 145)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d9b23c61-4395-490a-b4f5-664a7fb0bb0d")
 			(effects
 				(font
@@ -10586,6 +10605,7 @@
 		(property "Value" "SI2306"
 			(at 0 2.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f86b86ee-9b8e-4947-8c14-8f454d880d13")
 			(effects
 				(font
@@ -10854,6 +10874,7 @@
 		(property "Value" "M3-3.2mm"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a8038a9b-c563-434d-90bb-37795beedac5")
 			(effects
 				(font
@@ -11517,6 +11538,7 @@
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 7.41 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1e3669c1-7baf-4e88-8d29-914538b5be60")
 			(effects
 				(font
@@ -11796,6 +11818,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8465b5fd-00f6-4518-bcea-ec5dc771969c")
 			(effects
 				(font
@@ -12224,6 +12247,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "216f9a63-94bf-44cb-9ed6-6b4a0ed1e86e")
 			(effects
 				(font
@@ -12869,6 +12893,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "83401a03-6a8f-43b5-b910-9214d28711f9")
 			(effects
 				(font
@@ -13298,6 +13323,7 @@
 		(property "Value" "M3-3.2mm"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "99479ed6-9d0d-4cdf-80cf-33ca5ed661bf")
 			(effects
 				(font
@@ -13512,6 +13538,7 @@
 		(property "Value" "RT9193-18GB"
 			(at 0 2.4 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b55a8425-c838-4e97-b0ea-37258117033b")
 			(effects
 				(font
@@ -14231,6 +14258,7 @@
 		(property "Value" "SI2306"
 			(at 0 2.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4eef4b89-210f-4003-ad83-a4edffcc2935")
 			(effects
 				(font
@@ -14929,6 +14957,7 @@
 		(property "Value" "22nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "64b30bb2-efc7-4954-b599-620b52cd32e9")
 			(effects
 				(font
@@ -16044,6 +16073,7 @@
 		(property "Value" "10uF 6.3V"
 			(at 0 1.68 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "bcabd3e3-64fc-431a-8296-4a0e0f9742a0")
 			(effects
 				(font
@@ -16257,6 +16287,7 @@
 		(property "Value" "10uF 6.3V"
 			(at 0 1.68 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "212d021b-c556-4bef-a8bb-ca1d02ac513a")
 			(effects
 				(font
@@ -16899,6 +16930,7 @@
 		(property "Value" "Crystal_GND24"
 			(at 0 2.450001 55)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a2937c91-8e3a-457c-9d87-2abffec602e1")
 			(effects
 				(font
@@ -17141,6 +17173,7 @@
 		(property "Value" "STM32F103CBTx"
 			(at 0 5.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "058d5776-03a1-410f-9e17-b01732bcdc31")
 			(effects
 				(font
@@ -18098,6 +18131,7 @@
 		(property "Value" "0.1uF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b6141409-571e-42f2-93c4-adfbd2ea6f74")
 			(effects
 				(font
@@ -18743,6 +18777,7 @@
 		(property "Value" "SI2306"
 			(at 0 2.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b478b51e-c4f5-4473-a809-b6028158e9c8")
 			(effects
 				(font
@@ -19655,6 +19690,7 @@
 		(property "Value" "1uF 10V X7R"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ee9dc3fc-a70f-4ef7-b30e-d84fad005d89")
 			(effects
 				(font
@@ -20083,6 +20119,7 @@
 		(property "Value" "1uF 10V X7R"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7080ab67-7884-4697-9180-96d8a03616ae")
 			(effects
 				(font
@@ -20513,6 +20550,7 @@
 		(property "Value" "SI2306"
 			(at 0 2.4 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f4db95b0-7104-428e-a99d-02597fca917a")
 			(effects
 				(font
@@ -20780,6 +20818,7 @@
 		(property "Value" "22pF"
 			(at 0 1.429999 55)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "80785692-a210-46a7-b3dc-f660acbda3bb")
 			(effects
 				(font
@@ -21208,6 +21247,7 @@
 		(property "Value" "Conn_01x08_Pin"
 			(at 0 20.11 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "4ed3005a-1868-41d9-b8c8-87fdd1740a52")
 			(effects
 				(font
@@ -21756,6 +21796,7 @@
 		(property "Value" "10uF 10V"
 			(at 0 1.68 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6b7ffe41-e334-4167-9214-90a3291f5848")
 			(effects
 				(font
@@ -21970,6 +22011,7 @@
 		(property "Value" "Conn_01x08_Pin"
 			(at 0 20.11 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d85fc003-d001-4b3d-a3bc-c8f1ed55b171")
 			(effects
 				(font
@@ -22304,6 +22346,7 @@
 		(property "Value" "1uF 10V X7R"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "11193689-1128-41ec-b38d-649bf3c73468")
 			(effects
 				(font
@@ -22518,6 +22561,7 @@
 		(property "Value" "1uF 10V X7R"
 			(at 0 1.85 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7e5e569b-a4ac-4f08-afe5-c459781998a4")
 			(effects
 				(font
@@ -22732,6 +22776,7 @@
 		(property "Value" "SI2301"
 			(at 0 2.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "43ac10e4-fa32-4534-86b5-2887e73ae108")
 			(effects
 				(font
@@ -23451,6 +23496,7 @@
 		(property "Value" "M3-3.2mm"
 			(at 0 4.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "c9e9193e-cc95-419f-a63e-edae1579e24c")
 			(effects
 				(font
@@ -24308,6 +24354,7 @@
 		(property "Value" "22nF"
 			(at 0 1.68 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e7ca34d8-abe7-4a7e-93e6-467388c169b1")
 			(effects
 				(font
@@ -24522,6 +24569,7 @@
 		(property "Value" "LM1117MP-3.3"
 			(at 0 4.5 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d6f80316-6266-4cbc-9721-8473be01f99c")
 			(effects
 				(font
